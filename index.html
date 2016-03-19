@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Pomodoro Timer</title>
+
+    <!-- Bootstrap -->
+    <link hret= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+<body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+<div class="containerr">
+
+  <h1>Pomodoro Timer</h1>
+
+  <img class="tomato-icon" src="https://raw.githubusercontent.com/mand0/images/master/tomato.png"></img>
+
+  <p>Time to be productive!</p>
+
+
+  <div class="headers">
+    <div class="header-left">
+      <h2>Break Length</h2>
+    </div>
+    <div class="header-right">
+      <h2>Session Length</h2>
+    </div>
+  </div>
+
+
+    <div class="timer-wrapper">
+      <div class="break-timer-left">
+        <button class="fa fa-plus fa-3x" id="break-time-add"></button>
+        <h2 id="break-time">5</h2>
+        <button class="fa fa-minus fa-3x" id="break-time-sub"></button>
+      </div>
+      <div class="work-timer-right">
+        <button class="fa fa-plus fa-3x" id="work-time-add"></button>
+        <h2 id="work-time">25</h2>
+        <button class="fa fa-minus fa-3x" id="work-time-sub"></button>
+      </div>
+    </div>
+
+
+  <div class="break-message">
+    <span id="message">IT'S BREAK TIME!!!</span>
+  </div>
+
+  <div class="timer-button">
+    <span id="timer">25:00</span>
+  </div>
+
+  <div class="controls">
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </div>
+
+</div>
+
+</body>
+</html>

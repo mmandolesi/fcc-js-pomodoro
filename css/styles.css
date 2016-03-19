@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  background-image: url(https://raw.githubusercontent.com/mand0/images/master/restaurant.png);
+}
+
+.containerr {
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+body h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 100px;
+  font-weight: bold;
+  color: #c0392b;
+  display: inline;
+  /*font-weight: 300;*/
+  margin-right: 20px;
+}
+
+body p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: #3b3852;
+  margin-top: 30px;
+
+}
+
+body h2 {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  color: #c0392b;
+
+}
+
+img {
+  height: 140px;
+  width: auto;
+  margin-top: -70px;
+}
+
+button {
+  background-color: Transparent;
+  border: none;
+  /*cursor: pointer;*/
+}
+
+.headers {
+  /*background-color: green;*/
+  /*width: 60%;*/
+  /*margin: 0 auto;*/
+  text-align: center;
+  /*display: inline;*/
+  /*float: left;*/
+  /*margin-left: 420px;*/
+  /*margin-bottom: 0px;*/
+  /*clear:both;*/
+}
+.headers h2 {
+  font-size: 45px;
+  color: #3b3852;
+}
+.header-left {
+  /*background-color: blue;*/
+  float: left;
+  width: 50%;
+}
+.header-right {
+  /*background-color: yellow;*/
+  float: right;
+  width: 50%;
+}
+
+.timer-wrapper {
+  text-align: center;
+  color:#3b3852;
+
+}
+.timer-wrapper h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.break-timer-left {
+  /*height: 50px;*/
+  /*background-color: red;*/
+  /*clear: both;*/
+  float:left;
+  width: 50%;
+  margin-top: -30px;
+  /*vertical-align: top;*/
+  /*margin-left: 480px;*/
+  /*margin-top: 0px;*/
+  /*height: 100px;*/
+  /*display: block;*/
+}
+.work-timer-right {
+  /*margin-left: 400px;*/
+  /*background-color: yellow;*/
+  float:right;
+  width: 50%;
+  margin-top: -30px;
+  /*margin: 0px 0px;*/
+  /*clear: both;*/
+  /*margin: auto;*/
+  /*display: inline-block;
+  text-align: center;*/
+}
+
+.timer-button {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 165px auto;
+  /*background-color: #e2897f;*/
+}
+
+.timer-button span {
+  /*float: left;*/
+  /*width: 50%;*/
+  /*margin-top: 80px;*/
+  /*margin-left: 65px;*/
+  /*display: block;*/
+  /*margin: 0 auto;*/
+  color: #3b3852;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  font-size: 80px;
+}
+
+.controls {
+  /*background-color: green;*/
+  float:left;
+  width: 100%;
+  margin-top: -160px;
+  /*font-family: 'Indie Flower', cursive;*/
+  font-size: 30px;
+
+}
+
+.controls button {
+  border-radius: 20px;
+  font-family: 'Raleway', sans-serif;
+  /*border: 8px solid #703370;*/
+  border: 2px solid #fff;
+  /*border-radius: 20px;*/
+  /*padding: 5px;*/
+  color: #3b3852;
+}
+
+#start {
+  background-color: #27ae60;
+}
+
+#stop {
+  background-color: #c0392b;
+}
+
+.break-message {
+  /*background-color: green;*/
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #c0392b;
+  font-size: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -170px;
+  visibility: hidden;
+}
